@@ -54,20 +54,20 @@ social_settings:
 
 color_settings:
   background_color: '#ffffff'
-  background_alt_color: '#f4f5f6'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
+  background_alt_color: '#f7f6f3'
+  text_dark_color: '#37352F'
+  text_medium_color: '#787774'
+  text_light_color: '#9B9A97'
   accent_color: '#ee983d'
-  border_color: '#f7d7b6'
+  border_color: '#e9e9e7'
   overlay_background_color: '#161B21'
   overlay_text_color: '#ffffff'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">'
-  title_font: '"Nunito", sans-serif'
-  body_font: '"Nunito", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
+  title_font: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif'
+  body_font: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:
