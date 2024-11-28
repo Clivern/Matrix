@@ -2,10 +2,10 @@
 title: About
 description: Software Engineer and Occasional Writer. I write about Web APIs, PHP, Python, Go, Java, Rust, Elixir, Software Architecture, Resilience, Automation, AI, DevOps ... etc
 subtitle:
-featured_image: https://images.unsplash.com/photo-1573126324812-737c6b187ec0?q=90&fm=jpg&w=1000&fit=max
+featured_image: https://images.unsplash.com/photo-1720214655750-c400b75fcfa2?q=90&fm=jpg&w=1000&fit=max
 ---
 
-![](https://images.unsplash.com/photo-1573126324812-737c6b187ec0?q=90&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1720214655750-c400b75fcfa2?q=90&fm=jpg&w=1000&fit=max)
 
 *Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust & Elixir Newbie!*
 
