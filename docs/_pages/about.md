@@ -13,9 +13,9 @@ I don't believe on a specific language or a framework but on software principles
 
 I love challenges, Never settle for less, Always looking to improve and play nice with both humans and machines. Also I like gaming, photography. I been into Arduino and Electronics for a while now.
 
-***Specialties:*** PHP, Python, Golang, Rust, Elixir, Java, Javascript, MySQL, NoSQL, MongoDB, Cassandra, HTML, CSS, Laravel, Symfony, Angular, CodeIgniter, Flask, Django, FastAPI, Langchain, Langgraph, LLMs, Prompt Engineering, Vert.x, BackboneJs, jQuery, Ajax, Slim, Wordpress Plugin and Themes Development, LAMP, OOP, VCS, GIT, Continuous Integration, Chef, Jenkins, ElasticSearch, RabbitMQ, Kafka, HAProxy, Vagrant, Consul, Grafana, Prometheus, Nomad, Terraform, Docker, Kubernetes, MVC, Composer, Bower, VueJs, Typescript, TDD, Linux, Cloud Computing, DevOps, Bash, Apache, Nginx, Scrum.
+***Specialties:*** Python, Golang, PHP, Rust, Elixir, Java, Javascript, Typescript, PostgreSQL, MySQL, NoSQL, MongoDB, Cassandra, Redis, FastAPI, Gin, Django, Flask, Laravel, Symfony, Angular, VueJs, Vert.x, jQuery, LAMP, MVC, Kubernetes, Docker, Terraform, Ansible, Chef, Jenkins, Continuous Integration, AWS, GCP, Cloud Computing, DevOps, Grafana, Prometheus, ElasticSearch, Kafka, RabbitMQ, HAProxy, Vagrant, Consul, Nomad, Linux, Nginx, Bash, GIT, TDD, LangChain, LangGraph, RAG, embeddings, Qdrant, MCP, OpenRouter, vLLM, LLMs, Prompt Engineering.
 
-***Current Interests:*** Scaling Web Applications, Microservices Architecture, Cloud Native Architecture, High Availability, Automation and AI-Powered Systems.
+***Current Interests:*** Scaling Systems, Microservices Architecture, Cloud Native Architecture, High Availability, Automation, AI Powered Systems and Coding Agents.
 
 *I maintain a personal [Tech Radar](https://radar.thoughtworks.com/?documentId=https%3A%2F%2Fraw.githubusercontent.com%2FClivern%2FMatrix%2Fmain%2Ftradar.json) to visualize and track the technologies I use and evaluate.*
 
