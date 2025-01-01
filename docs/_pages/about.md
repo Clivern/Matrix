@@ -7,7 +7,7 @@ featured_image: https://images.unsplash.com/photo-1720214655750-c400b75fcfa2?q=9
 
 ![](https://images.unsplash.com/photo-1720214655750-c400b75fcfa2?q=90&fm=jpg&w=1000&fit=max)
 
-*Hi, I am Ahmed, a software developer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust & Elixir Newbie!*
+*Hi, I am Ahmed, a software engineer interested specifically in development using PHP, Python, Go, Java, MySQL, Javascript, Rust & Elixir*
 
 I don't believe on a specific language or a framework but on software principles that translate across language barriers. Frameworks and even programming languages change fast but principles are evergreen. I studied Petroleum Engineering (Yes I am a Petroleum Engineer :D). Weird Right! But It's been an interesting journey to get here.
 
