@@ -1,0 +1,10 @@
+[project]
+name = "building-a-human-in-the-loop-active-learning-loop"
+version = "0.1.0"
+description = "Human-in-the-loop active learning demo with scikit-learn"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "joblib>=1.4.0",
+    "scikit-learn>=1.6.0",
+]

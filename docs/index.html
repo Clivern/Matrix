@@ -10,6 +10,7 @@ featured_image: /images/cover.png
 	<div class="wrap">
 
 		{% for post in paginator.posts %}
+		{% unless post.hidden %}
 
 		<article class="listing-post">
 
@@ -29,6 +30,7 @@ featured_image: /images/cover.png
 
 		</article>
 
+		{% endunless %}
 		{% endfor %}
 
 	</div>
