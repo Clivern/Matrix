@@ -215,6 +215,14 @@ load:
     path: doctl
     tags: matrix,must_have,digitalocean
 
+  - name: clivern/matrix/nfpm
+    path: nfpm
+    tags: matrix,must_have,packaging
+
+  - name: clivern/matrix/goreleaser
+    path: goreleaser
+    tags: matrix,must_have,packaging
+
   - name: clivern/matrix/aws
     path: aws
     tags: matrix,must_have,aws

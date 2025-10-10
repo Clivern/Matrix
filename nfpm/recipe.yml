@@ -22,38 +22,38 @@
 
 
 tasks:
-  - name: Download goreleaser
+  - name: Download nfpm
     unarchive:
-      src: https://github.com/goreleaser/goreleaser/releases/download/v2.12.7/goreleaser_Darwin_x86_64.tar.gz
+      src: https://github.com/goreleaser/nfpm/releases/download/v2.43.4/nfpm_2.43.4_Darwin_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Darwin"
 
-  - name: Copy goreleaser
+  - name: Copy nfpm
     copy:
-      src: /tmp/goreleaser
-      dest: ~/bin/goreleaser
+      src: /tmp/nfpm
+      dest: ~/bin/nfpm
       mode: a+x
       force: true
     when: ansible_os_family == "Darwin"
 
-  - name: Download goreleaser
+  - name: Download nfpm
     unarchive:
-      src: https://github.com/goreleaser/goreleaser/releases/download/v2.12.7/goreleaser_Linux_x86_64.tar.gz
+      src: https://github.com/goreleaser/nfpm/releases/download/v2.43.4/nfpm_2.43.4_Linux_x86_64.tar.gz
       dest: /tmp
       remote_src: yes
     when: ansible_os_family == "Debian"
 
-  - name: Copy goreleaser
+  - name: Copy nfpm
     copy:
-      src: /tmp/goreleaser
-      dest: /usr/local/bin/goreleaser
+      src: /tmp/nfpm
+      dest: /usr/local/bin/nfpm
       mode: a+x
       force: true
     when: ansible_os_family == "Debian"
 
   - name: Get version
-    command: goreleaser --version
+    command: nfpm --version
     register: output
     when: ansible_os_family == "Darwin"
 
