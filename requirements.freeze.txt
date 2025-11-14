@@ -20,7 +20,7 @@ opswork==0.10.1
 packaging==25.0
 pexpect==4.9.0
 pexy==0.9.6
-prettytable==3.16.0
+prettytable==3.17.0
 ptyprocess==0.7.0
 pycparser==2.23
 Pygments==2.19.2
