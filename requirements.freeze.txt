@@ -1,7 +1,7 @@
 ansible==13.2.0
 ansible-core==2.20.1
 ansible-runner==2.4.2
-certifi==2025.11.12
+certifi==2026.1.4
 cffi==2.0.0
 charset-normalizer==3.4.4
 click==8.3.0
@@ -22,7 +22,7 @@ pexpect==4.9.0
 pexy==0.9.6
 prettytable==3.17.0
 ptyprocess==0.7.0
-pycparser==2.23
+pycparser==3.0
 Pygments==2.19.2
 pynvim==0.5.2
 python-daemon==3.1.2
@@ -31,5 +31,5 @@ requests==2.32.5
 resolvelib==1.2.1
 rich==14.2.0
 smmap==5.0.2
-urllib3==2.6.2
-wcwidth==0.2.14
+urllib3==2.6.3
+wcwidth==0.3.0
