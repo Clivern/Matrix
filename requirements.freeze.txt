@@ -22,7 +22,7 @@ pexpect==4.9.0
 pexy==0.9.6
 prettytable==3.17.0
 ptyprocess==0.7.0
-pycparser==2.23
+pycparser==3.0
 Pygments==2.19.2
 pynvim==0.5.2
 python-daemon==3.1.2
