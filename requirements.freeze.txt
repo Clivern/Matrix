@@ -17,7 +17,7 @@ MarkupSafe==3.0.3
 mdurl==0.1.2
 msgpack==1.1.2
 opswork==0.10.2
-packaging==25.0
+packaging==26.0
 pexpect==4.9.0
 pexy==0.9.6
 prettytable==3.17.0
