@@ -32,4 +32,4 @@ resolvelib==1.2.1
 rich==14.2.0
 smmap==5.0.2
 urllib3==2.6.3
-wcwidth==0.3.3
+wcwidth==0.5.2
