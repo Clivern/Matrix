@@ -1,14 +1,14 @@
 ---
 title: Understanding Embeddings
 date: 2025-09-10 00:00:00
-featured_image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=90&fm=jpg&w=1000&fit=max
-excerpt: An embedding is just a way to turn text into a list of numbers. Same idea as coordinates on a map: sentences that mean similar things end up close together, even when they use different words.
+featured_image: https://images.unsplash.com/photo-1556189250-72ba954cfc2b?q=90&fm=jpg&w=1000&fit=max
+excerpt: An embedding is just a way to turn text into a list of numbers. Same idea as coordinates on a map. sentences that mean similar things end up close together, even when they use different words.
 keywords: embeddings, sentence-transformers, bge-m3, vector-search, chromadb
 ---
 
-![](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=90&fm=jpg&w=1000&fit=max)
+![](https://images.unsplash.com/photo-1556189250-72ba954cfc2b?q=90&fm=jpg&w=1000&fit=max)
 
-An embedding is just a way to turn text into a list of numbers. Same idea as coordinates on a map: sentences that mean similar things end up close together, even when they use different words.
+An embedding is just a way to turn text into a list of numbers. Same idea as coordinates on a map. sentences that mean similar things end up close together, even when they use different words.
 
 In a RAG setup you do this in two passes. First, you split your docs into chunks, turn each chunk into numbers, and save those numbers in a database (Qdrant, Chroma, whatever). Later, when someone asks a question, you turn the question into numbers too, find the chunks that are closest, and send only those chunks to the LLM. The LLM does not read your whole library, something else finds the good bits first. Embeddings are what let you search by meaning, not by exact words.
 
@@ -102,7 +102,6 @@ $ uv run python main.py
 Query: What tool should I use to store vector data locally?
 Best match: ChromaDB is an open-source vector database specialized for AI embeddings.
 ```
-
 
 You can swap in your own documents, embed a whole folder, or plug this into a RAG flow. The model and the compare step stay the same.
 
