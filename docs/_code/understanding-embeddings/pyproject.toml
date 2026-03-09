@@ -1,0 +1,10 @@
+[project]
+name = "understanding-embeddings"
+version = "0.1.0"
+description = "Understanding embeddings demo with BAAI/bge-m3"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.5",
+    "sentence-transformers>=5.5.0",
+]
