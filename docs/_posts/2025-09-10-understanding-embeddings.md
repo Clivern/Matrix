@@ -10,7 +10,9 @@ keywords: embeddings, sentence-transformers, bge-m3, vector-search, chromadb
 
 An embedding is just a way to turn text into a list of numbers. Same idea as coordinates on a map. sentences that mean similar things end up close together, even when they use different words.
 
-In a RAG setup you do this in two passes. First, you split your docs into chunks, turn each chunk into numbers, and save those numbers in a database (Qdrant, Chroma, whatever). Later, when someone asks a question, you turn the question into numbers too, find the chunks that are closest, and send only those chunks to the LLM. The LLM does not read your whole library, something else finds the good bits first. Embeddings are what let you search by meaning, not by exact words.
+In a RAG setup you do this in two passes. First, you split your docs into chunks, turn each chunk into numbers, and save those numbers in a database (Qdrant, Chroma, whatever).
+
+Later, when someone asks a question, you turn the question into numbers too, find the chunks that are closest, and send only those chunks to the LLM. The LLM does not read your whole library, something else finds the good bits first. Embeddings are what let you search by meaning, not by exact words.
 
 ### How matching works?
 
@@ -69,6 +71,8 @@ def l2_distance(a: np.ndarray, b: np.ndarray) -> float:
 ```
 
 ### Rank all docs at once
+
+In the following code we score every doc against the question at once, sort by cosine similarity, and pick the best match from `DOCUMENTS`.
 
 ```python
 def rank_matches(query_vector, document_vectors):
