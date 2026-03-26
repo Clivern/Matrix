@@ -3,4 +3,4 @@ langchain-openai==0.3.9
 requests==2.32.4
 openai==1.67.0
 langchain-tools==0.1.34
-pytz==2025.2
+pytz==2026.1.post1
