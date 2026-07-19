@@ -200,7 +200,14 @@
         "ring":"adopt",
         "quadrant":"languages-and-frameworks",
         "isNew":"FALSE",
-        "description":"A framework for building applications with large language models (LLMs)."
+        "description":"A framework for building LLM applications: prompts, retrieval, tool calling, and model integrations."
+    },
+    {
+        "name":"LangGraph",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"A library for building stateful, multi-step AI agents and workflows on top of LangChain. Used in Meez and several tutorials for intention routing and human-in-the-loop loops."
     },
     {
         "name":"LlamaIndex",
@@ -208,6 +215,20 @@
         "quadrant":"languages-and-frameworks",
         "isNew":"FALSE",
         "description":"A framework for building applications that leverage large language models and data structures."
+    },
+    {
+        "name":"FastMCP",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"Python framework for building Model Context Protocol servers so AI agents can call tools, APIs, and data sources."
+    },
+    {
+        "name":"sentence-transformers",
+        "ring":"adopt",
+        "quadrant":"languages-and-frameworks",
+        "isNew":"TRUE",
+        "description":"Python library for turning text into embeddings. Used with models like BGE-M3 for RAG and similarity search."
     },
     {
         "name":"Composer",
@@ -306,6 +327,20 @@
         "quadrant":"tools",
         "isNew":"TRUE",
         "description":"Chroma is the open-source AI application database. Batteries included."
+    },
+    {
+        "name":"vLLM",
+        "ring":"trial",
+        "quadrant":"tools",
+        "isNew":"TRUE",
+        "description":"High-throughput inference engine for serving open-source LLMs. Used to run Llama 3.1 8B locally for experiments."
+    },
+    {
+        "name":"OpenRouter",
+        "ring":"adopt",
+        "quadrant":"tools",
+        "isNew":"TRUE",
+        "description":"One API for many LLM providers. Used as the brain behind coding-agent experiments so models can be switched without a new client."
     },
     {
         "name":"VCS",
@@ -621,14 +656,35 @@
         "ring":"adopt",
         "quadrant":"platforms",
         "isNew":"FALSE",
-        "description":"A suite of AI models and tools developed by OpenAI, including GPT-3, DALL-E, and Whisper."
+        "description":"GPT models and APIs used for chat, tool calling, embeddings, and building agents (including Meez)."
+    },
+    {
+        "name":"Anthropic",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"TRUE",
+        "description":"Claude models, used via Cursor and OpenRouter for coding agents, writing, and tool-calling loops."
     },
     {
         "name":"Google Gemini",
         "ring":"assess",
         "quadrant":"platforms",
         "isNew":"FALSE",
-        "description":"A framework for building conversational AI applications using large language models."
+        "description":"Google's family of multimodal LLMs. Evaluated as an alternative model behind the same OpenRouter client."
+    },
+    {
+        "name":"Hugging Face",
+        "ring":"adopt",
+        "quadrant":"platforms",
+        "isNew":"TRUE",
+        "description":"Model hub and ecosystem for open-source LLMs, embedding models, and datasets (Llama, BGE, sentence-transformers)."
+    },
+    {
+        "name":"DeepSeek",
+        "ring":"trial",
+        "quadrant":"platforms",
+        "isNew":"TRUE",
+        "description":"Open models used as a switchable coding-agent brain through OpenRouter."
     },
     {
         "name":"AWS",
@@ -692,5 +748,54 @@
         "quadrant":"techniques",
         "isNew":"FALSE",
         "description":"WordPress Plugin and Themes Development is the process of creating custom plugins and themes for the WordPress content management system. It allows developers to extend the functionality and customize the appearance of WordPress-powered websites."
+    },
+    {
+        "name":"RAG",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Retrieval-Augmented Generation: chunk documents, embed them, store in a vector database, and retrieve context before asking an LLM. Used with Qdrant, Chroma, and LangChain."
+    },
+    {
+        "name":"Embeddings",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Turning text into vectors so similar meaning sits close together. Foundation for search, RAG, and clustering."
+    },
+    {
+        "name":"Tool calling",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Letting an LLM request functions (read a file, call an API, search) while application code actually runs them and returns results."
+    },
+    {
+        "name":"Coding agents",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"LLM loops that plan, call tools, edit code, and iterate until a task is done. Built from scratch in Python and used daily in Cursor."
+    },
+    {
+        "name":"MCP",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Model Context Protocol: a standard way for AI assistants to discover and call external tools and data. Built a secure weather MCP server with FastMCP."
+    },
+    {
+        "name":"Prompt engineering",
+        "ring":"adopt",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Designing system prompts, few-shot examples, and output contracts so models behave reliably in agents and apps."
+    },
+    {
+        "name":"Human-in-the-loop",
+        "ring":"trial",
+        "quadrant":"techniques",
+        "isNew":"TRUE",
+        "description":"Pausing an agent graph so a human can approve, correct, or label before the next step. Explored with LangGraph and active learning."
     }
 ]

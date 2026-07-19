@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Curated map for AI agents: https://clivern.com/llms.txt
+Sitemap: https://clivern.com/sitemap.xml

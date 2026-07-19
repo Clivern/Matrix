@@ -8,6 +8,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
+	<link rel="describedby" href="{{ '/llms.txt' | absolute_url }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}{{ page.excerpt | strip_html | xml_escape }}{% endif %}">
 	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords | strip_html | xml_escape }}{% endif %}">

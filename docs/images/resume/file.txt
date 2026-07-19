@@ -1,0 +1,158 @@
+# Ahmed Fathy
+
+Software Engineer. Netherlands.
+
+- Website: https://clivern.com
+- GitHub: https://github.com/clivern
+- LinkedIn: https://www.linkedin.com/in/ahmedfath
+- Twitter: https://x.com/clivernco
+- Email: hello@clivern.com
+
+## Summary
+
+Software engineer with experience across application design, development, automation, scaling, and monitoring. Comfortable in Python, Go, PHP, Java, JavaScript, Elixir, and Rust.
+
+Always looking for interesting problems to solve and new technologies to learn. Not afraid of searching for a needle in a haystack. Tries to play nice with both humans and machines.
+
+In 2012, created clivern.com to share projects and tutorials about web development.
+
+**Specialties:** Python, Golang, PHP, Rust, Elixir, Java, Javascript, Typescript, PostgreSQL, MySQL, NoSQL, MongoDB, Cassandra, Redis, FastAPI, Gin, Django, Flask, Laravel, Symfony, Angular, VueJs, Vert.x, jQuery, LAMP, MVC, Kubernetes, Docker, Terraform, Ansible, Chef, Jenkins, Continuous Integration, AWS, GCP, Cloud Computing, DevOps, Grafana, Prometheus, ElasticSearch, Kafka, RabbitMQ, HAProxy, Vagrant, Consul, Nomad, Linux, Nginx, Bash, GIT, TDD, LangChain, LangGraph, RAG, embeddings, Qdrant, MCP, OpenRouter, vLLM.
+
+**Current interests:** Scaling systems, microservices architecture, cloud native architecture, high availability, automation, AI powered systems and coding agents.
+
+## Experience
+
+### Software Engineer — HousingAnywhere, Rotterdam, Netherlands
+Jan 2026 – Present
+
+- Booking Experience team, working on the booking platform.
+- Using AI to improve booking and drive more bookings.
+- REST and gRPC for service communication.
+- Go, Python, Gin, FastAPI, PostgreSQL, Redis, GitHub, Jenkins, CI/CD.
+- Deploying and managing services with Kubernetes on Google Cloud.
+
+### Software Engineer — Recorded Future, Amsterdam, Netherlands
+Sep 2025 – Nov 2025
+
+- Extended data processing for malware reports through static and dynamic analysis.
+- Built tools and infrastructure for diverse workloads: 10PB+ of data, millions of VMs a day, TBs processed every hour.
+- Built web services so users can interact with Sandbox.
+
+### Software Engineer — Cisco, Amsterdam, Netherlands
+May 2022 – Sep 2025
+
+- Designed and operated automation for the monitoring and observability platform of Cisco OpenDNS resolvers globally (Cisco Umbrella DNS).
+- Automation tooling for Naemon/Nagios, LGTM stack, Grafana Cloud, Datadog, with GitOps-based change management.
+- Chaos engineering service to test monitoring efficiency and resilience (reboots, traffic drops, latency injection, resource spikes).
+- Scuti: automated patching for virtual servers, with sequential, batch, and percentage-based rollouts.
+- On-call AI assistant for automated troubleshooting and incident response.
+- Go, Python, Elixir. Gin, FastAPI, Django, Phoenix. PostgreSQL, MySQL.
+- Nagios, Thruk, Naemon, Grafana, Prometheus, Alertmanager, Datadog.
+- AWS (EC2, RDS, S3, EKS). Terraform, Ansible, Jenkins, GitOps.
+- On-call shifts.
+
+### Software Engineer — Leaseweb, Amsterdam, Netherlands
+Jan 2018 – May 2022
+
+- DevOps team for Leaseweb public and private cloud platforms.
+- Microservices in PHP (Symfony) and Python to automate deployment and management of public VPS and private Elastic Compute.
+- Integrated internal and external systems with Apache CloudStack in an async, API-first architecture.
+- Customer and internal dashboards for cloud products.
+- Data traffic notification system with Symfony, MySQL, Redis, RabbitMQ, Graphite, and Chef.
+- Refactors to improve scalability, reliability, observability, and pay down technical debt.
+- Chef cookbooks to hundreds of production servers.
+- Time series (RRD, Whisper), Graphite, Grafana, ELK.
+- Virtualization, CloudStack, Qemu-KVM.
+- On-call and 3rd-level ticket escalation.
+
+### Software Engineer — Teleperformance, Cairo, Egypt
+May 2016 – Jan 2018
+
+- Internal portals for Egypt and Dubai, integrated with Teleperformance EMEA systems.
+- Automation integrated with LDAP and Teleperformance CCMS.
+- Microservices with Avaya for call recording and storage.
+- Internal training and certifications system (STEPs).
+- CI/CD with Jenkins and GitLab.
+- Requirements gathering with stakeholders. Interviewed candidates. On-call.
+
+### Senior Software Developer — Simplative Technology Solutions, Cairo, Egypt
+Sep 2015 – May 2016
+
+- Startup environment. Web applications from customer requirements using frameworks or CMS. Direct customer meetings.
+
+### Freelance Web Developer — Envato, Cairo, Egypt
+Jan 2012 – Sep 2015
+
+- Sold web applications and WordPress plugins: https://codecanyon.net/user/clivern
+
+### Freelance Web Developer — Freelancer.com, Cairo, Egypt
+Feb 2010 – Oct 2011
+
+### Summer Internship — Halliburton, Cairo, Egypt
+Aug 2010
+
+- Western desert oil field owned by Khalda and Apache Corporation as foreign partners.
+
+## Projects
+
+Open source projects change often. Full list: https://github.com/clivern
+
+- Cattle (https://github.com/Clivern/Cattle) — Platform to run and share code (PHP, Python, Ruby, Java, Go, Rust, C, C++).
+- Beetle (https://github.com/Clivern/Beetle) — Kubernetes multi-cluster deployment automation.
+- Walrus (https://github.com/Clivern/Walrus) — Fast, secure system backup.
+- Beaver (https://github.com/Clivern/Beaver) — Real-time messaging for notifications, games, and chat.
+- Racter (https://github.com/Clivern/Racter) — Java framework for Facebook Messenger bots.
+- Silverback (https://github.com/silverbackhq) — Status and incident communication.
+- Gauntlet (https://github.com/Clivern/Gauntlet) — Notes on building reliable large-scale distributed systems.
+- Peanut (https://github.com/Clivern/Peanut) — Deploy databases and services for dev and test.
+- Rhino (https://github.com/Clivern/Rhino) — HTTP mocking and debugging.
+- Hippo (https://github.com/Clivern/Hippo) — Go packages for microservices.
+- Helium (https://github.com/Clivernio/Helium) — Newsletter system.
+- Lynx (https://github.com/Clivern/Lynx) — Terraform backend.
+- Meez (https://github.com/Clivern/Meez) — AI assistant and copilot SDK for SaaS (LangChain, LangGraph).
+- Oak (https://github.com/Clivern/Oak) — Elixir Prometheus exporter.
+- Chaos (https://github.com/Clivern/Chaos) — Server chaos maker.
+- Apes (https://github.com/Clivern/Apes) — Chaos and resiliency testing.
+
+## Education
+
+Bachelor's degree, 2009–2014. Suez University, Suez, Egypt. Petroleum and Mining Engineering, Petroleum Department. Grade: Very Good.
+
+## Volunteering
+
+### DigitalOcean Navigator — Sep 2021 – Present
+
+- Authored and contributed to open source.
+- Tested DigitalOcean monitoring and managed products (Kubernetes, databases, Kafka).
+- Hacktoberfest since 2016 as contributor and core maintainer.
+- Load tested unreleased DigitalOcean products.
+- Worked with DevRels to help people learn with DigitalOcean.
+- https://www.digitalocean.com/blog/meet-the-navigators-2021
+
+### Paajaf Foundation — Jul 2013 – Aug 2013
+
+Volunteered to improve their website.
+
+## Certifications
+
+- Learn and Understand AngularJS — Jan 2016
+- Linux Administration Bootcamp — Dec 2019
+- Cassandra for Developers (Pluralsight) — Feb 2021
+- The Rust Programming Language — Jul 2022
+- Prometheus Alerting and Monitoring — Aug 2022
+- Grafana — Sep 2022
+- The Complete Elixir and Phoenix Bootcamp — Nov 2022
+- Develop LLM powered applications with LangChain — Nov 2023
+- Kotlin for Java Developers — Sept 2024
+- Splunk Observability Cloud courses — Jun–Jul 2024
+- Develop LLM powered AI agents with LangGraph — Mar 2025
+
+## Languages
+
+- Arabic: Native or bilingual
+- English: Full professional
+- Dutch: Elementary
+
+## References
+
+Available upon request.
