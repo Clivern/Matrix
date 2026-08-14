@@ -1,4 +1,4 @@
-ansible==13.6.0
+ansible==14.3.1
 ansible-core==2.20.8
 ansible-runner==2.4.2
 certifi==2026.7.22
