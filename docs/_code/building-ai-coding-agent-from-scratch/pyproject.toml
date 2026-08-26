@@ -1,0 +1,14 @@
+[project]
+name = "building-ai-coding-agent-from-scratch"
+version = "0.1.0"
+description = "Leif: a coding agent built from scratch with OpenRouter"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ddgs>=9.0.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.0.0",
+    "requests>=2.32.0",
+    "fastapi>=0.141.1",
+    "uvicorn[standard]>=0.52.4",
+]
