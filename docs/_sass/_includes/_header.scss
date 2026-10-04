@@ -59,7 +59,8 @@
 	color: $text-dark-color;
 
 	&:hover {
-		color: $accent-color;
+		color: $text-medium-color;
+		text-decoration: none;
 	}
 
 	@include mq(tabletp) {
@@ -127,7 +128,9 @@
 	border-bottom: 2px solid transparent;
 
 	&:hover {
-		color: $accent-color;
+		color: $text-dark-color;
+		border-bottom-color: $text-dark-color;
+		text-decoration: none;
 	}
 
 	@include mq(tabletp) {

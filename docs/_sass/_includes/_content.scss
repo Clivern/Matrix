@@ -88,7 +88,13 @@
 
 	p a {
 		font-weight: $bold-weight;
-		border-bottom: 2px solid $accent-color;
+		border-bottom: 2px solid transparent;
+
+		&:hover {
+			color: $text-medium-color;
+			border-bottom-color: $text-medium-color;
+			text-decoration: none;
+		}
 	}
 
 	p .button {
