@@ -23,7 +23,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-FROM python:3.11-slim
+FROM python:3.15-slim
 
 # Set environment variables to make apt-get non-interactive
 ENV DEBIAN_FRONTEND=noninteractive
