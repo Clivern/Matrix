@@ -26,9 +26,10 @@ In 2012, created clivern.com to share projects and tutorials about web developme
 Jan 2026 – Present
 
 - Booking Experience team, working on the booking platform.
-- Using AI to improve booking and drive more bookings.
+- Built and deployed production agentic AI systems to improve booking and drive more bookings, using LangGraph, LangChain, FastAPI and OpenRouter for LLM routing.
+- End-to-end tracing, observability and evals for AI agents with Langfuse, including LLM-as-a-judge scoring.
 - REST and gRPC for service communication.
-- Go, Python, Gin, FastAPI, PostgreSQL, Redis, GitHub, Jenkins, CI/CD.
+- Go, Python, Gin, FastAPI, PostgreSQL, Redis, GitHub, Jenkins, CI/CD, OpenRouter, Langfuse, LangChain, LangGraph, LGTM Stack.
 - Deploying and managing services with Kubernetes on Google Cloud.
 
 ### Software Engineer — Recorded Future, Amsterdam, Netherlands
@@ -110,6 +111,19 @@ Open source projects change often. Full list: https://github.com/clivern
 - Helium (https://github.com/Clivernio/Helium) — Newsletter system.
 - Lynx (https://github.com/Clivern/Lynx) — Terraform backend.
 - Meez (https://github.com/Clivern/Meez) — AI assistant and copilot SDK for SaaS (LangChain, LangGraph).
+- Actx0 (https://github.com/Actx0/Actx0) — A Zero Latency Memory Platform for AI Agents.
+- Sloth (https://github.com/Clivern/Sloth) — One Gateway for Your AI Agents, APIs and MCP Servers.
+- Ziee (https://github.com/Clivern/Ziee) — The Autonomous Merge Layer for Agent-Scale Delivery.
+- Swarm (https://github.com/Clivern/Swarm) — Point an Agent at a Repository. Get a Patch You Can Ship.
+- Cognit (https://github.com/Clivern/Cognit) — One Multi-Tenant Gateway for Your AI Agents, APIs and MCP Servers.
+- Finn (https://github.com/Clivern/Finn) — A Platform to Run, Schedule, and Automate Ansible and Terraform Workflows Powered With AI.
+- Boron (https://github.com/Clivern/Boron) — Minimalist Docker Sandbox for Spawning Instant, Disposable Agent Workspaces.
+- Ting (https://github.com/Clivern/Ting) — Swarm Proxy for OpenRouter.
+- Thor (https://github.com/Clivern/Thor) — OpenRouter Models by Average Cost.
+- Tum (https://github.com/Clivern/Tum) — Run OpenAI-Compatible LLM Servers Locally with MLX.
+- Diffsay (https://github.com/Clivern/Diffsay) — Generate a Conventional Commit Message Locally With MLX.
+- Leif (https://github.com/Clivern/Leif) — Stdio MCP Server for a Local PostgreSQL Database.
+- Finan (https://github.com/Clivern/Finan) — Building LLM from Scratch.
 - Oak (https://github.com/Clivern/Oak) — Elixir Prometheus exporter.
 - Chaos (https://github.com/Clivern/Chaos) — Server chaos maker.
 - Apes (https://github.com/Clivern/Apes) — Chaos and resiliency testing.
