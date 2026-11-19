@@ -1,7 +1,7 @@
 ansible==13.6.0
-ansible-core==2.20.9
+ansible-core==2.20.11
 ansible-runner==2.4.2
-certifi==2026.7.22
+certifi==2026.10.23
 cffi==2.1.1
 charset-normalizer==3.5.2
 click==8.3.0
@@ -12,17 +12,17 @@ greenlet==3.5.6
 idna==3.20
 Jinja2==3.1.6
 lockfile==0.12.2
-markdown-it-py==4.2.0
+markdown-it-py==4.3.0
 MarkupSafe==3.0.4
 mdurl==0.1.2
-msgpack==1.2.3
+msgpack==1.2.4
 opswork==0.10.2
 packaging==26.3
 pexpect==4.9.0
 pexy==0.9.6
 prettytable==3.17.0
 ptyprocess==0.7.0
-pycparser==3.0
+pycparser==3.12
 Pygments==2.21.0
 pynvim==0.5.2
 python-daemon==3.1.2
@@ -32,4 +32,4 @@ resolvelib==1.2.1
 rich==14.2.0
 smmap==5.0.3
 urllib3==2.8.0
-wcwidth==0.9.1
+wcwidth==0.9.4
